@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_esp32
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root14771404
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin_esp32
+    restart: always
+    environment:
+      PMA_HOST: mysql
+    ports:
+      - "8888:80"
+
+volumes:
+  mysql_data:

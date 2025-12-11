@@ -1,0 +1,57 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / config / secrets
+.env
+server-nodejs/config.js
+mqtt-broker/mosquitto.passwd
+database/.env
+database/*.sql
+database/*.env
+mqtt-broker/*.conf
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Docker
+docker-compose.override.yml
+.envrc
+**/tmp/
+**/cache/
+**/temp/
+**/build/
+**/dist/
+
+# IDE / OS files
+.vscode/
+*.code-workspace
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Arduino / ESP32 build
+*.bin
+*.elf
+*.hex
+*.pio
+.arduino/
+.arduino15/
+build/
+output/
+
+# Python / other
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mac / Linux files
+*.swp
+*~
