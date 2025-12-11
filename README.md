@@ -789,7 +789,7 @@ Open an Issue with:
 
 **Nguyen Hoai Duc**
 
-- 📧 Email: your.email@example.com
+- 📧 Email: nguynhoaiduc@gmail.com
 - 💼 LinkedIn: https://www.linkedin.com/in/duc-nguyen-hoai/
 - 🐙 GitHub: https://github.com/h-ducnguyen
 
